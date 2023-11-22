@@ -801,9 +801,7 @@ body {
   .intro--banner h1 {
     margin-top: 0;
   }
-  .intro--options {
-    display: none;
-  }
+
 }
 .work {
   position: relative;
