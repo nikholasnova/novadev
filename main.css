@@ -790,7 +790,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 300px) and (max-height: 450px) {
+@media (max-width: 600px) and (max-height: 750px) {
   .intro--banner {
     height: auto;
   }
