@@ -1537,6 +1537,12 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
   text-align: center;
   visibility: hidden;
   -webkit-transition: visibility 0s 0.2s;
@@ -1621,4 +1627,11 @@ body {
 .outer-nav li.is-vis:nth-child(5) {
   -webkit-transition-delay: 0.16s;
           transition-delay: 0.16s;
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
 }
