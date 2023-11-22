@@ -767,6 +767,9 @@ body {
   }
   .intro--banner img {
     width: 250px;
+    position: absolute;
+    bottom: 5px;
+    right: -12px;
   }
   .intro--options {
     display: block;
